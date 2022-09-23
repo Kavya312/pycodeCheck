@@ -1,3 +1,6 @@
+"""
+function for printing hello world.
+"""
 import os
 import json
 import printText
