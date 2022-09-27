@@ -18,6 +18,9 @@ jobs:
         echo hello. world!
         ls -a
         git version
+        echo print path!!!!
+        pwd
+        echo got the path!!!
         sudo chmod 777 run.sh
         sudo sh run.sh
       shell: bash
