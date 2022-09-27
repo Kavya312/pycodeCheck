@@ -7,8 +7,8 @@ on: [push]
 jobs:
   sh_test_job:
     name: sh test job
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: run a schell script file and create file 
-      run: /bin/sh ./runshs.sh
-      shell: bash
+      run: sh ./runshs.sh
+      shell: pwsh
