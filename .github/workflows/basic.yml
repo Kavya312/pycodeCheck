@@ -14,9 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
     - name: run a inline cmd
-      run: echo hello. world!
-    - name: giving permission to file
-      run: sudo chmod 777 Kavya312/pycodeCheck/.github/workflows/runshs.sh
-    - name: run a schell script file and create file
-      run: sh runshs.sh
-      shell: bash
+      run: |
+        echo hello. world!
+        ls -a
+        git version
