@@ -10,5 +10,5 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: run a schell script file and create file 
-      run: sh ./runshs.sh
+      run: ./runshs.sh
       shell: pwsh
