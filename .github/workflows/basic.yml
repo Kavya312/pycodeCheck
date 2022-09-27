@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: run a schell script file and create file 
-      run: sh .github/workflows/runshs.sh
+      run: sh ./runshs.sh
       shell: bash
