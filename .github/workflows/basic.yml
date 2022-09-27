@@ -22,7 +22,10 @@ jobs:
         pwd
         echo got the path!!!
         echo giving permission......!!
-        sudo chmod 777 run.sh
+        sudo chmod 777 runshs.sh
         echo running sh file..........!!!
-        sudo sh run.sh
+        sudo sh runshs.sh
+      shell: bash
+    - name: run sh script
+      run: sudo sh run.sh
       shell: bash
