@@ -29,8 +29,8 @@ jobs:
         cd .github/workflows
         echo list workflow...!!!
         ls -a
-        sudo chmod 777 /.github/workflows/runshs.sh
+        sudo chmod 777 runshs.sh
         echo running sh file..........!!!
-        sudo sh /.github/workflows/runshs.sh
+        sudo sh runshs.sh
       shell: bash
     
