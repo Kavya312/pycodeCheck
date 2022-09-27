@@ -10,5 +10,5 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: run a schell script file and create file 
-      run: sh Kavya312/pycodeCheck/.github/workflows/runshs.sh
+      run: sh Kavya312/pycodeCheck/run.sh
       shell: pwsh
