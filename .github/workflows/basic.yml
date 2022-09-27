@@ -12,5 +12,5 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: run a schell script file and create file
-      run: sh Kavya312/pycodeCheck/run.sh
+      run: sh runshs.sh
       shell: pwsh
