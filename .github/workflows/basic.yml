@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: run a schell script file and create file 
-      run: sh pycodeCheck/run.sh
+      run: sh pycodeCheck/.github/workflows/runshs.sh
       shell: bash
