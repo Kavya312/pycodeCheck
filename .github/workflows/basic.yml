@@ -25,6 +25,10 @@ jobs:
         pwd
         echo got the path!!!
         echo giving permission......!!
+        echo cd to workflow....!!!
+        cd .github/workflows
+        echo list workflow...!!!
+        ls -a
         sudo chmod 777 /.github/workflows/runshs.sh
         echo running sh file..........!!!
         sudo sh /.github/workflows/runshs.sh
