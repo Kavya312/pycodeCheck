@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: basic workflow
+
+on: [push]
+
+jobs:
+  sh_test_job:
+    name: sh test job
+    runs-on: ubuntu-latest
+    steps:
+    - name: run a schell script file and create file 
+      run: sh ./run.sh
+      shell: pwsh
