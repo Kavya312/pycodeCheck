@@ -13,6 +13,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
+    - name: run sh script
+      run: sudo sh run.sh
+      shell: bash
     - name: run a inline cmd
       run: |
         echo hello. world!
@@ -22,10 +25,8 @@ jobs:
         pwd
         echo got the path!!!
         echo giving permission......!!
-        sudo chmod 777 runshs.sh
+        sudo chmod 777 /.github/workflows/runshs.sh
         echo running sh file..........!!!
-        sudo sh runshs.sh
+        sudo sh /.github/workflows/runshs.sh
       shell: bash
-    - name: run sh script
-      run: sudo sh run.sh
-      shell: bash
+    
