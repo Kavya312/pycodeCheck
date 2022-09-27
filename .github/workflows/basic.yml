@@ -21,6 +21,8 @@ jobs:
         echo print path!!!!
         pwd
         echo got the path!!!
+        echo giving permission......!!
         sudo chmod 777 run.sh
+        echo running sh file..........!!!
         sudo sh run.sh
       shell: bash
