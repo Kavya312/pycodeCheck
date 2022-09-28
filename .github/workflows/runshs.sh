@@ -1,1 +1,1 @@
-echo"file ctreated"
+echo file ctreated
