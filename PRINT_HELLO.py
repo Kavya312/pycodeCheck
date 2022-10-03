@@ -7,7 +7,8 @@ import printText
 
 def main():
     print("Hello World!")
-    printText.ptfile()
+    while(True):
+        printText.ptfile()
 
 if __name__ == "__main__":
     main()
